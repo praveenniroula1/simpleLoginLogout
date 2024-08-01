@@ -1,24 +1,14 @@
-.form {
-  border: 5px solid black;
-  padding: 2rem;
+.cart{
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 10rem;
   width: 50%;
-  background-color: rgba(255, 0, 0, 0.281);
+  margin: auto;
+  border-radius: 1rem;
 }
-.inside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-.text {
-  border-radius: 1rem 0 1rem 0;
-  background-color: rgba(44, 227, 44, 0.614);
-  padding: 1rem;
+
+.list{
+  margin-top: 1rem;
+  font-size: 2rem;
 }
