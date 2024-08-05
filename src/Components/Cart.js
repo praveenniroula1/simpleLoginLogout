@@ -21,14 +21,14 @@ const Cart = () => {
     <div>
       <h1 className="cart">This is Cart Items={data.cartList.length}</h1>
       {display?.map((item, index) => (
-        <li className="list" key={index}>
+        <div className="list" key={ item._id}>
           {item.name}{" "}
           <button onClick={() => handleOnClick(index)}>RemoveFromCart</button>{" "}
           <span>
             <button onClick={() => handleOnAdd(item)}>+</button>{" "}
             <button onClick={() => handleOnMinus(index)}>-</button>
           </span>
-        </li>
+        </div>
       ))}
     </div>
   );
